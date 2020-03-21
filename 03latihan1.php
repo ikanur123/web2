@@ -13,7 +13,7 @@ $greenbox = $ball;
 $purplebox = $ball; 
 } else {    
 $colorlessbox = $ball; 
-} echo "red box : $redbox <br>\n"; 
+} echo "red box : $redbox <br>"; 
 echo "yellow box : $yellowbox <br>\n"; 
 echo "blue box : $bluebox <br>\n"; 
 echo "green box : $greenbox <br>\n"; 
