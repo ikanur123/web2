@@ -1,7 +1,5 @@
 <?php
-
 $name = 'elearning3';
-
 switch ($name) {
     case 'elearning1':
         echo "Pertemuan";
