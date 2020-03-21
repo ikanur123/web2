@@ -1,22 +1,19 @@
 <?php
 
-$name = 'han solo';
+$name = 'elearning3';
 
 switch ($name) {
-    case 'yoda':
-        echo 'Do or do not there is no try.';
+    case 'elearning1':
+        echo "Pertemuan";
         break;
-    case 'darth vader':
-        echo 'I am your Father.';
-        break;
-    case 'leia':
-        echo "Help me Obi-Wan Kenobi, you're my only hope.";
-        break;
-    case 'han solo':
-        echo 'I have a bad feeling about this.';
+    case 'elearning2':
+        echo "Pengenalan PHP";
+        break;    
+    case 'elearning3':
+        echo 'PHP Conditional Statements';
         break;
     default:
-        echo 'Who are you?';
+        echo 'Belum Tersedia';
         break;
 }
 ?>
