@@ -7,8 +7,8 @@
 Terima kasih atas kunjungan anda, silakan mengisi buku tamu, sebelum berkomentar :
 <form action="<?php $_SERVER['PHP_SELF'] ; ?>" method="GET">
 <pre>
-Nama    : <input type="text" name="Nama">
-Alamat    : <input type="text" name="Alamat" size="40">
+Nama    : <input type="text" name="nama">
+Alamat    : <input type="text" name="alamat" size="40">
 Kota    : <input type="text" name="Kota" size="25">
 Kode Pos: <input type="text" name="KodePos" size="8">
 Propinsi: <select name="pilih"><option>Banten</option><option>Jawa Barat</option><option>Jawa Timur</option><option>Jawa Tengah</option></select>
