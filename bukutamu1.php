@@ -5,7 +5,7 @@
 <body>
 <h2> BUKU TAMU</h2><hr>
 Terima kasih atas kunjungan anda, silakan mengisi buku tamu, sebelum berkomentar :
-<form action="<?php $_SERVER['PHP_SELF'] ; ?>" method="get">
+<form action="<?php $_SERVER['PHP_SELF'] ; ?>" method="GET">
 <pre>
 Nama    : <input type="text" name="Nama">
 Alamat    : <input type="text" name="Alamat" size="40">
