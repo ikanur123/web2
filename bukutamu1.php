@@ -1,7 +1,7 @@
 <html>
-<head>
-<title> Buku Tamu Tanpa Database </title>
-</head>
+    <head>
+        <title> Buku Tamu Tanpa Database </title>
+    </head>
 <body>
 <h2> BUKU TAMU</h2><hr>
 Terima kasih atas kunjungan anda, silakan mengisi buku tamu, sebelum berkomentar :
@@ -17,7 +17,6 @@ Komentar:<textarea name="komentar" rows=4 cols=100></textarea>
 <p>
 <input type=submit value="Kirim Data" name="submit"> <input type=reset value="Hapus Data">
 </form>
-
 <?php
 $nama = $_GET['Nama'] ;
 $alamat = $_GET['Alamat'] ;
@@ -28,12 +27,12 @@ $email = $_GET['E-Mail'] ;
 $komentar = $_GET['komentar'] ;
 
 if ($_GET['submit']) {
-echo "Nama : ".$nama."<br>" ;
-echo "Alamat : ".$alamat."<br>" ;
-echo "Kota : ".$kota."<br>" ;
-echo "Kode Pos : ".$kodepos."<br>" ;
-echo "Propinsi : ".$propinsi."<br>" ;
-echo "Email : ".$email."<br>" ;
-echo "Komentar : ".$komentar."<br>" ;
-}
-?>
+    echo "Nama : ".$nama."<br>" ;
+    echo "Alamat : ".$alamat."<br>" ;
+    echo "Kota : ".$kota."<br>" ;
+    echo "Kode Pos : ".$kodepos."<br>" ;
+    echo "Propinsi : ".$propinsi."<br>" ;
+    echo "Email : ".$email."<br>" ;
+    echo "Komentar : ".$komentar."<br>" ;
+    }
+    ?>
