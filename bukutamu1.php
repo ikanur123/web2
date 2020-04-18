@@ -19,7 +19,7 @@ Komentar:<textarea name="komentar" rows=4 cols=100></textarea>
 </form>
 
 <?php
-$nama = $_GET["Nama"] ;
+$nama = $_GET['Nama'] ;
 $alamat = $_GET['Alamat'] ;
 $kota = $_GET['Kota'] ;
 $kodepos = $_GET['KodePos'] ;
